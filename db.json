@@ -1,0 +1,79 @@
+{
+    "temperatureData": [
+        {
+            "id": 1,
+            "city": "New York",
+            "temperature": 22
+        },
+        {
+            "id": 2,
+            "city": "London",
+            "temperature": 18
+        },
+        {
+            "id": 3,
+            "city": "Tokyo",
+            "temperature": 25
+        },
+        {
+            "id": 4,
+            "city": "Paris",
+            "temperature": 20
+        },
+        {
+            "id": 5,
+            "city": "Berlin",
+            "temperature": 16
+        },
+        {
+            "id": 6,
+            "city": "Sydney",
+            "temperature": 27
+        },
+        {
+            "id": 7,
+            "city": "Dubai",
+            "temperature": 35
+        },
+        {
+            "id": 8,
+            "city": "Mumbai",
+            "temperature": 30
+        },
+        {
+            "id": 9,
+            "city": "Toronto",
+            "temperature": 19
+        },
+        {
+            "id": 10,
+            "city": "Singapore",
+            "temperature": 28
+        },
+        {
+            "id": 11,
+            "city": "Los Angeles",
+            "temperature": 26
+        },
+        {
+            "id": 12,
+            "city": "Moscow",
+            "temperature": 12
+        },
+        {
+            "id": 13,
+            "city": "Beijing",
+            "temperature": 21
+        },
+        {
+            "id": 14,
+            "city": "Cape Town",
+            "temperature": 24
+        },
+        {
+            "id": 15,
+            "city": "Rio de Janeiro",
+            "temperature": 29
+        }
+    ]
+}
