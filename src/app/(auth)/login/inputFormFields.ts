@@ -1,4 +1,4 @@
-import CopyForm from "@/components/form/copyForm";
+import CopyForm from "@/components/form/dynamicform";
 
 const inputFormFields = [
     {

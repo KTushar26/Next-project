@@ -75,5 +75,7 @@
             "city": "Rio de Janeiro",
             "temperature": 29
         }
-    ]
+    ],
+
+    "invoices":[]
 }

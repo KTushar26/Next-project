@@ -7,7 +7,7 @@ import { Form } from "@/components/ui/form";
 import { Button } from "@/components/ui/button";
 import CardPreview from "@/components/card/cardPreview";
 import SuccessCard from "@/components/card/successCard";
-import CopyForm from "@/components/form/copyForm";
+import CopyForm from "@/components/form/dynamicform";
 
 type Props = {};
 

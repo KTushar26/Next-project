@@ -4,17 +4,18 @@ import { CalendarIcon } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
-import { cn } from "@/lib/utils";
-import { FormControl, FormField, FormItem, FormLabel } from "../ui/form";
 
-const FormDatePicker = ({ control, name, label, rules, className }: any) => {
+import { cn } from "@/lib/utils";
+import { FormControl, FormField, FormItem, FormLabel, FormMessage } from "../ui/form";
+
+const FormDatePicker = ({ control, name, label, rules,className }: any) => {
   return (
     <FormField
       control={control}
       name={name}
-      rules={rules}
+      rules={rules} 
       render={({ field }) => (
-        <FormItem className={cn("flex flex-col", className)}>
+        <FormItem className={cn("flex flex-col",className)}>
           <FormLabel>{label}</FormLabel>
           <Popover>
             <PopoverTrigger asChild>
@@ -37,6 +38,7 @@ const FormDatePicker = ({ control, name, label, rules, className }: any) => {
               />
             </PopoverContent>
           </Popover>
+          <FormMessage/>
         </FormItem>
       )}
     />

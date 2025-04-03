@@ -2,7 +2,7 @@
 
 import { useForm } from "react-hook-form"
 
-import CopyForm from "@/components/form/copyForm"
+import CopyForm from "@/components/form/dynamicform"
 import inputFormFields from "./inputFormFields"
 
 

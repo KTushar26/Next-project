@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import FormSelect from "@/components/form/formSelect";
 import { Button } from "@/components/ui/button";
 import formFields from "./tipFormFields";
-import CopyForm from "@/components/form/copyForm";
+import CopyForm from "@/components/form/dynamicform";
 import TipDisplay from "@/components/tip-calc/subPart";
 
 

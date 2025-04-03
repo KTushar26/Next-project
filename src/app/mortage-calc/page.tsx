@@ -1,6 +1,6 @@
 "use client"
 
-import CopyForm from '@/components/form/copyForm'
+import CopyForm from '@/components/form/dynamicform'
 import { Button } from '@/components/ui/button'
 import React from 'react'
 import mortageFormFields from './mortageFromFields'
